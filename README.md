@@ -1,10 +1,10 @@
-# Custom JSON-Based Wizard
+# Custom JSON-Based Wizards
 
-Exstend base cpp class wizard.
+### Exstends:
 
-### Options:
-* 1 Namespace wrapping.
-* 2 Inserting using directive.
+ * *C++* Class wizard.
+ 
+ * Autotest wizard.
 
 ### Usage:
 
@@ -13,8 +13,9 @@ Exstend base cpp class wizard.
 * 1:
 
 ```bash
-    cd /usr/share/qtcreator/templates/wizards/ 
     git clone https://github.com/kupns-aka-kupa/qt-cpp-class-wizard.git
+    chmod +x install.sh
+    ./install.sh
 ```
 
 * 2: **Restart** qtcreator.
